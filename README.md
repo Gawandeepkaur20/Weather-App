@@ -40,8 +40,35 @@ images/
 2️⃣ App sends request to OpenWeather API
 3️⃣ Weather data (temp, humidity, wind speed) comes in JSON
 4️⃣ App displays clean and formatted UI
+🔑 Setup: API Key
 
+Create a free account on: https://openweathermap.org/api
+Generate an API Key
+Add your key in your code:
+String apiKey = "YOUR_API_KEY_HERE";
 
-Material UI Widgets
+🚀 Run the App
+Clone the repo:
+git clone https://github.com/Gawandeepkaur20/Weather-App.git
 
-Async/Await API Handling
+Navigate to project:
+cd Weather-App
+
+Install dependencies:
+flutter pub get
+
+Run:
+flutter run
+
+🔮 Future Enhancements
+
+☁️ 5-day & 7-day weather forecast
+
+📍 Auto-location weather (GPS)
+
+🎨 Animated weather icons
+
+🌙 Dark & Light mode
+
+☔ Rain probability, sunrise/sunset times
+
